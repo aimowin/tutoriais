@@ -1,0 +1,77 @@
+@keyframes gira {
+	0% { transform: rotateY(0deg); }
+	2% { transform: rotateY(90deg); }
+	4% { transform: rotateY(0deg); }
+}
+
+#link0 {
+	animation: gira 4s 1s infinite;
+}
+
+#link1 {
+	animation: gira 4s 2s infinite;
+}
+
+#link2 {
+	animation: gira 4s 3s infinite;
+}
+
+#link3 {
+	animation: gira 4s 4s infinite;
+}
+
+#link4 {
+	animation: gira 4s 1s infinite;
+}
+
+#link5 {
+	animation: gira 4s 2s infinite;
+}
+
+#link6 {
+	animation: gira 4s 3s infinite;
+}
+
+#link7 {
+	animation: gira 4s 4s infinite;
+}
+
+#link8 {
+	animation: gira 4s 1s infinite;
+}
+
+#link9 {
+	animation: gira 4s 2s infinite;
+}
+
+#link10 {
+	animation: gira 4s 3s infinite;
+}
+
+#link11 {
+	animation: gira 4s 4s infinite;
+}
+
+#link12 {
+	animation: gira 4s 1s infinite;
+}
+
+#link13 {
+	animation: gira 4s 2s infinite;
+}
+
+#link14 {
+	animation: gira 4s 3s infinite;
+}
+
+#link15 {
+	animation: gira 4s 4s infinite;
+}
+
+#link16 {
+	animation: gira 4s 1s infinite;
+}
+
+#link17 {
+	animation: gira 4s 2s infinite;
+}

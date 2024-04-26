@@ -1,0 +1,112 @@
+﻿:root {
+	--link: #bbbbcc;
+	--titulos: #cccccc;
+	--font: #ffffff;
+	--bordaDestaque: #888888;
+	--bordaDiscreta: #666666;
+	--bgTitulos: #2d2d2d;
+	--bgPagina: #1d1d1d;
+}
+
+@keyframes pisca {
+	0% { transform: rotateX(0deg); }
+	3% { transform: rotateX(90deg); }
+	6% { transform: rotateX(0deg); }
+}
+
+a {
+	color: var(--link);
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+article {
+	border-radius: 16px 0px 0px 0px;
+	border: 2px dashed var(--bordaDestaque);
+	margin-bottom: 20px;
+	padding: 2px 20px 20px 12px;
+}
+
+body {
+	background-color: var(--bgPagina);
+	color: var(--font);
+	margin: 0px;
+	font-family: "Segoe Ui";
+}
+
+footer {
+	background-image: url('../imagens/background.png');
+	background-size: 292px;
+	background-position-y: -52px;
+	text-align: right;
+}
+
+footer button {
+	width: 70px;
+	margin: 9px 3px 8px;
+}
+
+footer button:last-child {
+	margin-right: 10px;
+}
+
+h1 {
+	background-image: url('../imagens/background.png');
+	background-size: 292px;
+	margin-top: 0px;
+}
+
+h1 a {
+	display: block;
+	padding: 28px 30px 30px 32px;
+	font-family: Courier;
+	font-size: 42px;
+	letter-spacing: 4px;
+	user-select: none;
+	color: var(--font);
+}
+
+h1 a span {
+	background-color: #222222;
+}
+
+h2 {
+	background-color: var(--bgTitulos);
+	padding: 12px 10px 10px 14px;
+	color: var(--titulos);
+	border-radius: 8px 0px 0px 0px;
+	border-bottom: 12px double var(--bgPagina);
+	margin: 8px -12px 8px -4px;
+	animation: pisca 4s 3s infinite;
+}
+
+h3 {
+	background-color: var(--bgTitulos);
+	padding: 4px 7px 8px 14px;
+	border-bottom: 12px double var(--bgPagina);
+}
+
+main {
+	margin: 0px 20px;
+	min-height: calc(100vh - 185px);
+}
+
+pre {
+	border: 1px solid var(--bordaDiscreta);
+	padding: 12px;
+	overflow: scroll;
+	max-height: 80vh;
+}
+
+.imagem {
+	width: 100%;
+	max-width: 500px;
+	cursor: pointer;
+	border: 1px solid var(--bordaDiscreta);
+	filter: grayscale(50%);
+}
+
+#coment {
+	margin: 30px 20px -10px 20px;
+}
