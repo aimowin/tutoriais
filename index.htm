@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Tutoriais</title>
+	<meta name="description" content="Tutoriais sobre programação para jogos em diversas linguagens de programação. Desenvolvimento de software a partir da programação." />
+	<link rel="canonical" href="https://rodrigoschio.github.io/tutoriais/" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="imagens/favicon.ico" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/home.css" />
+	<link rel="stylesheet" href="css/animacoes.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1><a onclick="acessar(parseInt(Math.random() * 18));"><span>Tutoriais</span></a></h1>
+	<main>
+
+<div id="menu">
+<section class="slider-wrapper">
+	<button class="slide-arrow" id="slide-arrow-prev" onclick="document.getElementById('slides-container').scrollLeft -= document.querySelector('.slide').clientWidth;">&#8249;</button>
+	<button class="slide-arrow" id="slide-arrow-next" onclick="document.getElementById('slides-container').scrollLeft += document.querySelector('.slide').clientWidth;">&#8250;</button>
+
+<ul class="slides-container" id="slides-container">
+
+	<li class="slide">
+		<a href="modulos/0/index.htm" class="tutorial" id="link0"><div>Joe Jumper</div><b>Tipo: desktop</b><br>linguagem: C<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+		<a href="modulos/1/index.htm" class="tutorial" id="link1"><div>Zombie Waves</div><b>Tipo: mobile</b><br>linguagem: java<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/2/index.htm" class="tutorial" id="link2"><div>Xadrez</div><b>Tipo: browser</b><br>linguagem: javascript<small>Indicado para<br><b>Avançados</b></small><br><button>acessar</button></a>
+	</li>
+
+	<li class="slide">
+		<a href="modulos/3/index.htm" class="tutorial" id="link3"><div>Database</div><b>Tipo: servidores</b><br>linguagem: php<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/4/index.htm" class="tutorial" id="link4"><div>Campo Minado</div><b>Tipo: mobile</b><br>linguagem: java<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/5/index.htm" class="tutorial" id="link5"><div>Jogo de Corrida</div><b>Tipo: desktop</b><br>linguagem: javascript<small>Indicado para<br><b>Avançados</b></small><br><button>acessar</button></a>
+	</li>
+
+	<li class="slide">
+		<a href="modulos/6/index.htm" class="tutorial" id="link6"><div>Logo Maker</div><b>Tipo: front end</b><br>linguagens: css - js<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+		<a href="modulos/7/index.htm" class="tutorial" id="link7"><div>Breakout</div><b>Tipo: browser</b><br>linguagem: javascript<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/8/index.htm" class="tutorial" id="link8"><div>Square Motor</div><b>Tipo: mobile</b><br>linguagem: kotlin<small>Indicado para<br><b>Avançados</b></small><br><button>acessar</button></a>
+	</li>
+
+	<li class="slide">
+		<a href="modulos/9/index.htm" class="tutorial" id="link9"><div>Site Simples</div><b>Tipo: web</b><br>linguagem: html<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+		<a href="modulos/10/index.htm" class="tutorial" id="link10"><div>Endless Runner</div><b>Tipo: desktop</b><br>linguagem: python<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+		<a href="modulos/11/index.htm" class="tutorial" id="link11"><div>Snake</div><b>Tipo: desktop</b><br>linguagem: C<small>Indicado para<br><b>Avançados</b></small><br><button>acessar</button></a>
+	</li>
+
+	<li class="slide">
+		<a href="modulos/12/index.htm" class="tutorial" id="link12"><div>Rocket Attack</div><b>Tipo: desktop</b><br>linguagem: hta<small>Indicado para<br><b>Avançados</b></small><br><button>acessar</button></a>
+		<a href="modulos/13/index.htm" class="tutorial" id="link13"><div>Screenshot</div><b>Tipo: mobile</b><br>linguagem: java<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/14/index.htm" class="tutorial" id="link14"><div>Shuffle Faces</div><b>Tipo: desktop</b><br>linguagem: hta<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+	</li>
+
+	<li class="slide">
+		<a href="modulos/15/index.htm" class="tutorial" id="link15"><div>Harry Leap</div><b>Tipo: mobile</b><br>linguagem: java<small>Indicado para<br><b>Intermediários</b></small><br><button>acessar</button></a>
+		<a href="modulos/16/index.htm" class="tutorial" id="link16"><div>Números Primos</div><b>Tipo: web</b><br>linguagem: javascript<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+		<a href="modulos/17/index.htm" class="tutorial" id="link17"><div>Armazenamento</div><b>Tipo: desktop</b><br>textos e imagens<small>Indicado para<br><b>Iniciantes</b></small><br><button>acessar</button></a>
+	</li>
+
+</ul>
+</section>
+</div>
+
+<!--
+<article id="download0">
+	<h2>Download <b>Bacamarte</b></h2>
+	<small>jogo para android</small>
+	Baixe <a href='https://drive.google.com/file/d/1mq-QSq2wS87hqGeTklyIb4E36t-EyqbQ/view?usp=sharing' target='_blank'>bacamarte.apk</a> e experimente o joguinho que o tutorial apresenta.
+</article>
+
+<article id="download1">
+	<h2>Download <b>Estilo Frase</b></h2>
+	<small>app android</small>
+	Baixe <a href='https://drive.google.com/file/d/1K5jVuLFJ4rTk917wF-rPXrVge-2vnMzq/view?usp=sharing' target='_blank'>estilofrase.apk</a> e experimente o app que o tutorial apresenta.
+</article>
+
+<article id="download2">
+	<h2>Download <b>Expressions</b></h2>
+	<small>app android</small>
+	Baixe <a href='https://drive.google.com/file/d/1acxKZdQjlOikPp8dR7IsfM-NE2q7K_oi/view?usp=sharing' target='_blank'>expressions.apk</a> e experimente o app que o tutorial apresenta.
+</article>
+
+<article id="download3">
+	<h2>Download <b>Faster Bill</b></h2>
+	<small>jogo desktop</small>
+	Baixe <a href='https://drive.google.com/file/d/1yvkWwXe7Eic-LeugyGLxOSgb2K759iS6/view?usp=sharing' target='_blank'>fasterbill.zip</a> e experimente o jogo que o tutorial apresenta.
+</article>
+
+<article id="download4">
+	<h2>Download <b>Fluid Fuel</b></h2>
+	<small>jogo para android</small>
+	Baixe <a href='https://drive.google.com/file/d/1b-EkHQbN7ReLVAg3Vo_Ak0N0vKdYb1Ey/view?usp=sharing' target='_blank'>fluidfuel.apk</a> e experimente o game que o tutorial apresenta.
+</article>
+
+<article id="download5">
+	<h2>Download <b>Logo Maker</b></h2>
+	<small>software desktop</small>
+	Baixe <a href='https://drive.google.com/file/d/1XCXPH6Asy5g3Uf7Sk4u6aG_s47hO6Xs8/view?usp=sharing' target='_blank'>logoMaker.zip</a> e experimente o software que o tutorial apresenta.
+</article>
+
+<article id="download6">
+	<h2>Download <b>Rocket Attack</b></h2>
+	<small>jogo para windows</small>
+	Baixe <a href='https://drive.google.com/file/d/128qEvhy_Rf7M9pKqBDCnF8jD-1rl7Y5w/view?usp=sharing' target='_blank'>RocketAttack.zip</a> e experimente o jogo que o tutorial apresenta.
+</article>
+
+<article id="download7">
+	<h2>Download <b>Shuffle Faces</b></h2>
+	<small>jogo para windows</small>
+	Baixe <a href='https://drive.google.com/file/d/1snVtk81-94V50f5uQJKN4mOa-g4eSqjP/view?usp=sharing' target='_blank'>shufflefaces.zip</a> e experimente o game que o tutorial apresenta.
+</article>
+
+<article id="download8">
+	<h2>Download <b>Square Motor</b></h2>
+	<small>jogo para android</small>
+	Baixe <a href='https://drive.google.com/file/d/1G4_TiQVceaypFJY15BqawOJ4oBXBJ6Zw/view?usp=sharing' target='_blank'>squaremotor.apk</a> e experimente o joguinho que o tutorial apresenta.
+</article>
+
+<article id="download9">
+	<h2>Download <b>Zombie Waves</b></h2>
+	<small>jogo para android</small>
+	Baixe <a href='https://drive.google.com/file/d/1pwd9Eio6G76LPQzrBOMsP9tlH9ewD4BC/view?usp=sharing' target='_blank'>zombiewaves.apk</a> e experimente o jogo que o tutorial apresenta.
+</article>
+-->
+
+	</main>
+	<footer>
+		<button onclick="alert('rodrigoschio1982@gmail.com');">conversa</button>
+	</footer>
+</body>
+<script src="js/home.js"></script>
+</html>

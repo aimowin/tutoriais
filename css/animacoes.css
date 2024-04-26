@@ -1,0 +1,123 @@
+@keyframes pisca {
+	0% { opacity: 1; }
+	2% { opacity: 0; }
+	4% { opacity: 1; }
+}
+
+@keyframes gira {
+	0% { transform: rotateY(0deg); }
+	2% { transform: rotateY(90deg); }
+	4% { transform: rotateY(0deg); }
+}
+
+#link0 {
+	animation: pisca 18s 0s infinite;
+}
+
+#link1 {
+	animation: pisca 18s 1s infinite;
+}
+
+#link2 {
+	animation: pisca 18s 2s infinite;
+}
+
+#link3 {
+	animation: pisca 18s 3s infinite;
+}
+
+#link4 {
+	animation: pisca 18s 4s infinite;
+}
+
+#link5 {
+	animation: pisca 18s 5s infinite;
+}
+
+#link6 {
+	animation: pisca 18s 6s infinite;
+}
+
+#link7 {
+	animation: pisca 18s 7s infinite;
+}
+
+#link8 {
+	animation: pisca 18s 8s infinite;
+}
+
+#link9 {
+	animation: pisca 18s 9s infinite;
+}
+
+#link10 {
+	animation: pisca 18s 10s infinite;
+}
+
+#link11 {
+	animation: pisca 18s 11s infinite;
+}
+
+#link12 {
+	animation: pisca 18s 12s infinite;
+}
+
+#link13 {
+	animation: pisca 18s 13s infinite;
+}
+
+#link14 {
+	animation: pisca 18s 14s infinite;
+}
+
+#link15 {
+	animation: pisca 18s 15s infinite;
+}
+
+#link16 {
+	animation: pisca 18s 16s infinite;
+}
+
+#link17 {
+	animation: pisca 18s 17s infinite;
+}
+
+#download0 {
+	animation: gira 10s 0s infinite;
+}
+
+#download1 {
+	animation: gira 10s 1s infinite;
+}
+
+#download2 {
+	animation: gira 10s 2s infinite;
+}
+
+#download3 {
+	animation: gira 10s 3s infinite;
+}
+
+#download4 {
+	animation: gira 10s 4s infinite;
+}
+
+#download5 {
+	animation: gira 10s 5s infinite;
+}
+
+#download6 {
+	animation: gira 10s 6s infinite;
+}
+
+#download7 {
+	animation: gira 10s 7s infinite;
+}
+
+#download8 {
+	animation: gira 10s 8s infinite;
+}
+
+#download9 {
+	animation: gira 10s 9s infinite;
+}
